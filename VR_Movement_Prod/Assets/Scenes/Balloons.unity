@@ -5668,6 +5668,7 @@ GameObject:
   - component: {fileID: 2044065393}
   - component: {fileID: 2044065392}
   - component: {fileID: 2044065391}
+  - component: {fileID: 2044065394}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -5721,6 +5722,23 @@ Transform:
   - {fileID: 1313984800}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044065394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044065390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d38fa8ccdb6154eb413fe0aefe4ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 0}
+  rigRoot: {fileID: 2044065393}
+  velocity: 2
+  rotationSpeed: 100
+  trackedTransform: {fileID: 677477507}
 --- !u!1 &2119271328
 GameObject:
   m_ObjectHideFlags: 0
